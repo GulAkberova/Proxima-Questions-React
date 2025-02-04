@@ -1,0 +1,85 @@
+{
+  "welcome": "Welcome to our survey panel!",
+  "change_language": "Change Language",
+  "home": "Home",
+  "questionform": "Question Form",
+
+  "sections": {
+    "company": "About the Company",
+    "sales": "Sales",
+    "technology": "Technology",
+    "salesforce": "Salesforce Requirements",
+    "customer_service": "Customer Service",
+    "reporting": "Reporting & Analytics",
+    "marketing": "Marketing",
+    "training": "Training & User Adoption",
+    "security": "Security & Privacy",
+    "budget": "Budget & Project Scope"
+  },
+  "questions": {
+    "company": {
+      "q1": "What is the legal name of the company?",
+      "q2": "How many employees does the company have?",
+      "q3": "What are the main products and services offered by your company?",
+      "q4": "In which markets does your company operate?",
+      "q5": "Who are the main competitors of your company?",
+      "q6": "Who are the main strategic partners of your company?",
+      "q7": "What are the main customer segments of your company?",
+      "q8": "Does your company have a website?"
+    },    
+    "sales": {
+      "q1": "Do you have an existing customer base?",
+      "q2": "How many people are in the sales team?",
+      "q3": "How does your sales process currently work?",
+      "q4": "How many stages does your sales cycle include?",
+      "q5": "What are your key KPIs?"
+    },
+    "technology": {
+      "q1": "Do you have a CRM system?",
+      "q2": "Do you use an ERP system?",
+      "q3": "Which technology solutions are you currently using?",
+      "q4": "Do you need data migration to Salesforce?",
+      "q5": "Do you need Salesforce accessibility on mobile devices?"
+    },
+    "salesforce": {
+      "q1": "What do you expect from Salesforce?",
+      "q2": "Which modules do you need?",
+      "q3": "How do you manage customer data?",
+      "q4": "What level of customized dashboards and reports do you need for users?"
+    },
+    "customer_service": {
+      "q1": "How do you manage customer inquiries and complaints?",
+      "q2": "Which channels do you use for customer support?",
+      "q3": "How do you measure customer service performance?",
+      "q4": "Do you need automated complaint resolution?"
+    },
+    "reporting": {
+      "q1": "How do you analyze sales and customer data?",
+      "q2": "What are your key KPIs?",
+      "q3": "How do you access existing reports?",
+      "q4": "Is real-time data analysis important for you?"
+    },
+    "marketing": {
+      "q1": "What strategies do you currently use to attract customers?",
+      "q2": "Is marketing automation important for you?",
+      "q3": "Which tools does your marketing team use?",
+      "q4": "Do you implement customer segmentation and targeted campaigns?"
+    },
+    "training": {
+      "q1": "What level of training do Salesforce users need?",
+      "q2": "How open is your team to adopting the new system?",
+      "q3": "Is the simplicity and ease of use of the interface important for users?"
+    },
+    "security": {
+      "q1": "Do you have specific requirements for data security and privacy?",
+      "q2": "Who should have access to data, and at what level?",
+      "q3": "How should data backup and recovery policies be structured?"
+    },
+    "budget": {
+      "q1": "What is your budget for Salesforce implementation?",
+      "q2": "Which features are essential, and which can be added later?",
+      "q3": "What is your planned timeline for project completion?",
+      "q4": "Do you have internal resources for implementation, or do you need full external support?"
+    }
+  }
+}

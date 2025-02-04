@@ -1,0 +1,87 @@
+{
+  "welcome": "Anket panelimize hoş geldiniz!",
+  "change_language": "Dili Değiştir",
+
+  "home": "Ana Sayfa",
+  "questionform": "Anket",
+
+
+  "sections": {
+    "company": "Şirket Hakkında",
+    "sales": "Satış",
+    "technology": "Teknoloji",
+    "salesforce": "Salesforce Gereksinimleri",
+    "customer_service": "Müşteri Hizmetleri",
+    "reporting": "Raporlama ve Analitik",
+    "marketing": "Pazarlama",
+    "training": "Eğitim ve Kullanıcı Kabulü",
+    "security": "Güvenlik ve Gizlilik",
+    "budget": "Bütçe ve Proje Kapsamı"
+  },
+  "questions": {
+    "company": {
+      "q1": "Şirketin yasal adı nedir?",
+      "q2": "Şirkette kaç çalışan var?",
+      "q3": "Şirketinizin ana ürün ve hizmetleri nelerdir?",
+      "q4": "Şirketiniz hangi pazarlarda faaliyet göstermektedir?",
+      "q5": "Şirketinizin ana rakipleri kimlerdir?",
+      "q6": "Şirketinizin ana stratejik ortakları kimlerdir?",
+      "q7": "Şirketinizin ana müşteri segmentleri nelerdir?",
+      "q8": "Şirketinizin web sitesi var mı?"
+    },
+    "sales": {
+      "q1": "Mevcut bir müşteri tabanınız var mı?",
+      "q2": "Satış ekibiniz kaç kişiden oluşuyor?",
+      "q3": "Şu anda satış süreciniz nasıl işliyor?",
+      "q4": "Satış döngünüz kaç aşamadan oluşuyor?",
+      "q5": "Temel KPI'larınız nelerdir?"
+    },
+    "technology": {
+      "q1": "Bir CRM sisteminiz var mı?",
+      "q2": "ERP sistemi kullanıyor musunuz?",
+      "q3": "Şu anda hangi teknolojik çözümleri kullanıyorsunuz?",
+      "q4": "Verilerin Salesforce’a taşınması gerekiyor mu?",
+      "q5": "Salesforce’u mobil cihazlarda kullanma ihtiyacınız var mı?"
+    },
+    "salesforce": {
+      "q1": "Salesforce’tan ne bekliyorsunuz?",
+      "q2": "Hangi modüllere ihtiyacınız var?",
+      "q3": "Müşteri verilerini nasıl yönetiyorsunuz?",
+      "q4": "Kullanıcılar için ne düzeyde özelleştirilmiş panolar ve raporlar gerekiyor?"
+    },
+    "customer_service": {
+      "q1": "Müşteri taleplerini ve şikayetlerini nasıl yönetiyorsunuz?",
+      "q2": "Müşteri desteğini hangi kanallar üzerinden sağlıyorsunuz?",
+      "q3": "Müşteri hizmetleri performansını nasıl ölçüyorsunuz?",
+      "q4": "Şikayetlerin otomatik çözümü gerekiyor mu?"
+    },
+    "reporting": {
+      "q1": "Satış ve müşteri verilerini nasıl analiz ediyorsunuz?",
+      "q2": "Temel KPI'larınız nelerdir?",
+      "q3": "Mevcut raporlarınıza nasıl erişiyorsunuz?",
+      "q4": "Gerçek zamanlı veri analizi sizin için önemli mi?"
+    },
+    "marketing": {
+      "q1": "Şu anda müşteri çekmek için hangi stratejileri kullanıyorsunuz?",
+      "q2": "Pazarlama otomasyonu sizin için önemli mi?",
+      "q3": "Pazarlama ekibiniz hangi araçları kullanıyor?",
+      "q4": "Müşteri segmentasyonu ve hedeflenmiş kampanyalar yapıyor musunuz?"
+    },
+    "training": {
+      "q1": "Salesforce kullanıcıları için hangi seviyede eğitime ihtiyaç var?",
+      "q2": "Ekibiniz yeni sisteme geçişe ne kadar açık?",
+      "q3": "Kullanıcılar için arayüzün sadeliği ve kullanışlılığı önemli mi?"
+    },
+    "security": {
+      "q1": "Veri güvenliği ve gizliliği konusunda özel gereksinimleriniz var mı?",
+      "q2": "Kimler ve hangi seviyede verilere erişim sağlamalı?",
+      "q3": "Veri yedekleme ve kurtarma politikası nasıl düzenlenmeli?"
+    },
+    "budget": {
+      "q1": "Salesforce uygulaması için ne kadar bütçe ayırdınız?",
+      "q2": "Hangi özellikler sizin için zorunlu, hangileri sonradan eklenebilir?",
+      "q3": "Projeyi tamamlamak için planladığınız süre nedir?",
+      "q4": "Projenin uygulanması için dahili kaynaklarınız var mı, yoksa tamamen dış destek mi gerekiyor?"
+    }
+  }
+}

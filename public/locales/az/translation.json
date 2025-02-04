@@ -1,0 +1,87 @@
+{
+  "welcome": "Sorğu panelimizə xoş gəlmisiniz!",
+  "change_language": "Dili dəyiş",
+  "home": "Ana səhifə",
+  "questionform": "Sorğu",
+
+
+
+  "sections": {
+    "company": "Şirkət Haqqında",
+    "sales": "Satış",
+    "technology": "Texnologiya",
+    "salesforce": "Salesforce Tələbləri",
+    "customer_service": "Müştəri Xidmətləri",
+    "reporting": "Hesabat və Analitika",
+    "marketing": "Marketinq",
+    "training": "Təlim və İstifadəçi Qəbulu",
+    "security": "Təhlükəsizlik və Məxfilik",
+    "budget": "Büdcə və Layihə Çərçivəsi"
+  },
+  "questions": {
+    "company": {
+      "q1": "Şirkətin hüquqi adı nədir?",
+      "q2": "İşçi sayı neçədir?",
+      "q3": "Şirkətin əsas məhsul və xidmətləri nələrdir?",
+      "q4": "Şirkət hansı bazarlarda fəaliyyət göstərir?",
+      "q5": "Şirkətin əsas rəqibləri kimlərdir?",
+      "q6": "Şirkətin əsas strateji tərəfdaşları kimlərdir?",
+      "q7": "Əsas müştəri seqmentləriniz hansılardır?",
+      "q8": "Şirkətin veb saytı varmı?"
+    },
+    "sales": {
+      "q1": "Müştəri bazanız varmı?",
+      "q2": "Satış komandası neçə nəfərdir?",
+      "q3": "Hazırda satış prosesi necə işləyir?",
+      "q4": "Satış dövrü neçə mərhələdən ibarətdir?",
+      "q5": "Əsas KPI-larınız hansılardır?"
+    },
+    "technology": {
+      "q1": "CRM sisteminiz varmı?",
+      "q2": "ERP sisteminiz varmı?",
+      "q3": "Hazırda hansı texnoloji həllərdən istifadə edirsiniz?",
+      "q4": "Məlumatların Salesforce-a miqrasiya olunması lazımdırmı?",
+      "q5": "Salesforce-u mobil tətbiqdə istifadə etmək ehtiyacı varmı?"
+    },
+    "salesforce": {
+      "q1": "Salesforce-dan nə istəyirsiniz?",
+      "q2": "Hansı modullar lazımdır?",
+      "q3": "Müştəri məlumatlarını necə idarə edirsiniz?",
+      "q4": "İstifadəçilər üçün hansı səviyyədə fərdiləşdirilmiş dashboard və hesabatlar lazımdır?"
+    },
+    "customer_service": {
+      "q1": "Müştəri sorğularını və şikayətlərini necə idarə edirsiniz?",
+      "q2": "Müştəri dəstəyi hansı kanallar üzərindən aparılır?",
+      "q3": "Müştəri xidməti performansını necə ölçürsünüz?",
+      "q4": "Şikayətlərin avtomatlaşdırılmış həlli lazımdırmı?"
+    },
+    "reporting": {
+      "q1": "Satış və müştəri məlumatlarını necə analiz edirsiniz?",
+      "q2": "Əsas KPI-larınız hansılardır?",
+      "q3": "Mövcud hesabatlarınızı necə əldə edirsiniz?",
+      "q4": "Real vaxtda məlumat analizi sizin üçün vacibdirmi?"
+    },
+    "marketing": {
+      "q1": "Hazırda müştəri cəlb etmək üçün hansı strategiyalardan istifadə edirsiniz?",
+      "q2": "Marketinq avtomatlaşdırması sizin üçün vacibdirmi?",
+      "q3": "Marketinq komandası hansı alətləri istifadə edir?",
+      "q4": "Müştəri seqmentasiyası və hədəflənmiş kampaniyalar həyata keçirirsinizmi?"
+    },
+    "training": {
+      "q1": "Salesforce istifadəçiləri üçün hansı səviyyədə təlimlərə ehtiyac var?",
+      "q2": "Komanda üzvləri yeni sistemə keçməyə nə qədər açıqdır?",
+      "q3": "İstifadəçilər üçün interfeysin sadəliyi və rahatlığı önəmlidirmi?"
+    },
+    "security": {
+      "q1": "Məlumat təhlükəsizliyi və məxfiliyi ilə bağlı xüsusi tələbləriniz varmı?",
+      "q2": "Məlumatlara kimlər və hansı səviyyədə giriş icazəsi almalıdır?",
+      "q3": "Məlumatların ehtiyat nüsxəsi və bərpa siyasəti necə tənzimlənməlidir?"
+    },
+    "budget": {
+      "q1": "Salesforce tətbiqi üçün nə qədər büdcə ayırmısınız?",
+      "q2": "Hansı xüsusiyyətlər sizin üçün mütləqdir və hansıları sonradan əlavə etmək olar?",
+      "q3": "Layihəni hansı müddət ərzində tamamlamağı planlaşdırırsınız?",
+      "q4": "Layihənin həyata keçirilməsi üçün daxili resurslarınız varmı, yoxsa tamamilə xarici dəstək tələb olunur?"
+    }
+  }
+}

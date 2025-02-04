@@ -1,0 +1,87 @@
+.container {
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  padding: 0px 30px;
+}
+
+.questionform {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.questionform button {
+  flex: 1;
+  padding: 6px 10px;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+  color: white;
+  border: none;
+  border-bottom: 2px solid transparent;
+  border-radius: 3px;
+}
+
+.questionform button.active {
+  font-weight: bold;
+  background-color: #35abab;
+}
+
+.tab-content {
+  padding: 30px 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.input-group label div {
+  border: 1px solid white;
+  padding: 3px 2px;
+  width: 10px;
+  background-color: white;
+  border-radius: 100%;
+  display: inline-block;
+  margin-right: 7px;
+}
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: transparent;
+  color: white;
+}
+.input-group input:focus {
+  outline: none;
+}
+.add_questionform {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.add_questionform button {
+  padding: 15px 10px;
+  cursor: pointer;
+  background-color: #35abab;
+  color: white;
+  transition: 0.5s ease all;
+  border-radius: 3px;
+  border: 1px solid #35abab;
+  font-size: 16px;
+  font-weight: 600;
+}
+.add_questionform button:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+}
