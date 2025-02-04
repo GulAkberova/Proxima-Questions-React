@@ -5,83 +5,92 @@
   "home": "Ana Sayfa",
   "questionform": "Anket",
 
+  "welcome": "Sorgu panelimize hoş geldiniz!",
+  "change_language": "Dili değiştir",
+  "home": "Anasayfa",
+  "questionform": "Sorgu",
 
   "sections": {
     "company": "Şirket Hakkında",
+    "website": "Web Sitesi ve Online Platformlar",
+    "email": "E-posta ve Elektronik İletişim",
+    "social_media": "Sosyal Medya ve Dijital Kanallar",
     "sales": "Satış",
-    "technology": "Teknoloji",
-    "salesforce": "Salesforce Gereksinimleri",
     "customer_service": "Müşteri Hizmetleri",
     "reporting": "Raporlama ve Analitik",
-    "marketing": "Pazarlama",
-    "training": "Eğitim ve Kullanıcı Kabulü",
+    "automation": "Otomasyon ve Bildirimler",
     "security": "Güvenlik ve Gizlilik",
-    "budget": "Bütçe ve Proje Kapsamı"
+    "budget": "Bütçe ve Proje Çerçevesi",
+    "training": "Eğitim ve Kullanıcı Kabulü"
   },
   "questions": {
     "company": {
       "q1": "Şirketin yasal adı nedir?",
-      "q2": "Şirkette kaç çalışan var?",
-      "q3": "Şirketinizin ana ürün ve hizmetleri nelerdir?",
-      "q4": "Şirketiniz hangi pazarlarda faaliyet göstermektedir?",
-      "q5": "Şirketinizin ana rakipleri kimlerdir?",
-      "q6": "Şirketinizin ana stratejik ortakları kimlerdir?",
-      "q7": "Şirketinizin ana müşteri segmentleri nelerdir?",
-      "q8": "Şirketinizin web sitesi var mı?"
+      "q2": "Çalışan sayısı kaç kişidir ve kaç kişi satışla ilgileniyor?",
+      "q3": "Şirketin ana ürün ve hizmetleri nelerdir?",
+      "q4": "Şirket hangi pazarlarda faaliyet göstermektedir? (yerel, uluslararası, bölgesel vb.)",
+      "q5": "Şirketin ana rakipleri kimlerdir?",
+      "q6": "Şirketin ana stratejik ortakları kimlerdir?",
+      "q7": "Ana müşteri segmentleriniz nelerdir?"
+    },
+    "website": {
+      "q1": "Şirketin web sitesi var mı?",
+      "q2": "Web sitesi hangi teknolojiyle yapılmıştır?",
+      "q3": "Siteyin ana amacı nedir? (bilgilendirme, satış, müşteri desteği vb.)",
+      "q4": "Sitede CRM ve diğer sistemlerle entegrasyon var mı?",
+      "q5": "SEO ve analiz için hangi araçları kullanıyorsunuz?"
+    },
+    "email": {
+      "q1": "Şirket hangi e-posta sistemlerini kullanıyor?",
+      "q2": "E-posta pazarlama kampanyaları yürütüyor musunuz?",
+      "q3": "Otomatik e-posta bildirimleriniz var mı?",
+      "q4": "Müşteri desteği için e-posta sorgularını nasıl yönetiyorsunuz?"
+    },
+    "social_media": {
+      "q1": "Şirket hangi sosyal medya platformlarını kullanıyor?",
+      "q2": "Sosyal medya üzerinden satış veya müşteri hizmeti yürütüyor musunuz?",
+      "q3": "Sosyal medya sorgularını nasıl takip ediyorsunuz?",
+      "q4": "Sosyal medya hesaplarınızın CRM sistemleriyle entegrasyonuna ihtiyacınız var mı?"
     },
     "sales": {
-      "q1": "Mevcut bir müşteri tabanınız var mı?",
-      "q2": "Satış ekibiniz kaç kişiden oluşuyor?",
-      "q3": "Şu anda satış süreciniz nasıl işliyor?",
-      "q4": "Satış döngünüz kaç aşamadan oluşuyor?",
-      "q5": "Temel KPI'larınız nelerdir?"
-    },
-    "technology": {
-      "q1": "Bir CRM sisteminiz var mı?",
-      "q2": "ERP sistemi kullanıyor musunuz?",
-      "q3": "Şu anda hangi teknolojik çözümleri kullanıyorsunuz?",
-      "q4": "Verilerin Salesforce’a taşınması gerekiyor mu?",
-      "q5": "Salesforce’u mobil cihazlarda kullanma ihtiyacınız var mı?"
-    },
-    "salesforce": {
-      "q1": "Salesforce’tan ne bekliyorsunuz?",
-      "q2": "Hangi modüllere ihtiyacınız var?",
-      "q3": "Müşteri verilerini nasıl yönetiyorsunuz?",
-      "q4": "Kullanıcılar için ne düzeyde özelleştirilmiş panolar ve raporlar gerekiyor?"
+      "q1": "Müşteri tabanınız var mı?",
+      "q2": "Satış ekibi kaç kişiden oluşuyor?",
+      "q3": "Şu anda satış süreci nasıl işliyor?",
+      "q4": "Satış döngüsü kaç aşamadan oluşuyor?",
+      "q5": "Ana KPI'larınız nelerdir?"
     },
     "customer_service": {
-      "q1": "Müşteri taleplerini ve şikayetlerini nasıl yönetiyorsunuz?",
-      "q2": "Müşteri desteğini hangi kanallar üzerinden sağlıyorsunuz?",
+      "q1": "Müşteri sorgularını ve şikayetlerini nasıl yönetiyorsunuz?",
+      "q2": "Müşteri desteği hangi kanallar üzerinden yapılmaktadır?",
       "q3": "Müşteri hizmetleri performansını nasıl ölçüyorsunuz?",
-      "q4": "Şikayetlerin otomatik çözümü gerekiyor mu?"
+      "q4": "Şikayetlerin otomatik çözümü gerekli midir?"
     },
     "reporting": {
       "q1": "Satış ve müşteri verilerini nasıl analiz ediyorsunuz?",
-      "q2": "Temel KPI'larınız nelerdir?",
-      "q3": "Mevcut raporlarınıza nasıl erişiyorsunuz?",
-      "q4": "Gerçek zamanlı veri analizi sizin için önemli mi?"
+      "q2": "Ana KPI'larınız nelerdir?",
+      "q3": "Mevcut raporlarınızı nasıl elde ediyorsunuz?",
+      "q4": "Gerçek zamanlı veri analizi sizin için önemli midir?"
     },
-    "marketing": {
-      "q1": "Şu anda müşteri çekmek için hangi stratejileri kullanıyorsunuz?",
-      "q2": "Pazarlama otomasyonu sizin için önemli mi?",
-      "q3": "Pazarlama ekibiniz hangi araçları kullanıyor?",
-      "q4": "Müşteri segmentasyonu ve hedeflenmiş kampanyalar yapıyor musunuz?"
-    },
-    "training": {
-      "q1": "Salesforce kullanıcıları için hangi seviyede eğitime ihtiyaç var?",
-      "q2": "Ekibiniz yeni sisteme geçişe ne kadar açık?",
-      "q3": "Kullanıcılar için arayüzün sadeliği ve kullanışlılığı önemli mi?"
+    "automation": {
+      "q1": "Müşteri başvurularının otomatikleştirilmesine ihtiyacınız var mı?",
+      "q2": "Otomatik bildirimler (e-posta, SMS vb.) göndermek ister misiniz?",
+      "q3": "Satış süreçlerinde otomatik iş akışlarına ihtiyacınız var mı?"
     },
     "security": {
-      "q1": "Veri güvenliği ve gizliliği konusunda özel gereksinimleriniz var mı?",
-      "q2": "Kimler ve hangi seviyede verilere erişim sağlamalı?",
-      "q3": "Veri yedekleme ve kurtarma politikası nasıl düzenlenmeli?"
+      "q1": "Veri güvenliği ve gizliliği ile ilgili özel gereksinimleriniz var mı?",
+      "q2": "Verilere kimler ve hangi seviyede erişim izni almalıdır?",
+      "q3": "Verilerin yedeklenmesi ve geri yüklenmesi politikası nasıl düzenlenmelidir?"
     },
     "budget": {
       "q1": "Salesforce uygulaması için ne kadar bütçe ayırdınız?",
-      "q2": "Hangi özellikler sizin için zorunlu, hangileri sonradan eklenebilir?",
-      "q3": "Projeyi tamamlamak için planladığınız süre nedir?",
-      "q4": "Projenin uygulanması için dahili kaynaklarınız var mı, yoksa tamamen dış destek mi gerekiyor?"
+      "q2": "Hangi özellikler sizin için zorunludur ve hangileri sonradan eklenebilir?",
+      "q3": "Projeyi ne kadar sürede tamamlamayı planlıyorsunuz?",
+      "q4": "Projeyi gerçekleştirmek için iç kaynaklarınız var mı, yoksa tamamen dış destek gerekecek mi?"
+    },
+    "training": {
+      "q1": "Salesforce kullanıcıları için hangi düzeyde eğitimlere ihtiyaç var?",
+      "q2": "Ekip üyeleri yeni sisteme geçişe ne kadar açıktır?",
+      "q3": "Kullanıcılar için arayüzün basitliği ve kolaylığı önemli midir?"
     }
   }
 }
