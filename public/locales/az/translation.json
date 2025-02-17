@@ -3,6 +3,16 @@
   "change_language": "Dili dəyiş",
   "home": "Ana səhifə",
   "questionform": "Sorğu",
+  "answer":"Sorğu Nəticələri",
+  "superdashboard":"Superadmin",
+  "addToAllQuestions":"Bütün Sualları Əlavə Et",
+  "areYouSureAllQuestionsFilled":"Bütün bölmələrdəki bütün sualları doldurduğunuzdan əminsinizmi?",
+  
+  "questionsAdded": "Suallar uğurla əlavə edildi!",
+  "questionsAddError": "Suallar əlavə edərkən xəta baş verdi.",
+  "close": "Bağla",
+
+  
 
   "sections": {
     "company": "Şirkət Haqqında",

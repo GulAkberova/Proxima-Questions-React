@@ -5,6 +5,8 @@
   padding: 15px 20px;
   border-bottom: 2px solid #ddd;
   font-family: Arial, sans-serif;
+  background-color: var(--background-color);
+
 }
 
 .nav-links {
@@ -15,42 +17,100 @@
 
 .nav-links li a {
   text-decoration: none;
-  color: #fff;
-  font-weight: 500;
+  color: var(--text-color);
+  font-weight: 600;
+
 }
 
-.language-selector {
+.header-right {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 5px;
+  gap: 20px;
 }
 
-.custom-dropdown select {
-  width: 160px;
-  padding: 10px;
+/* Auth Links - Daxil Olma və Qeydiyyat */
+.auth-links {
+  display: flex;
+  gap: 10px;
+  padding: 10px 15px;
+  border: 2px solid #35abab;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+}
+
+.auth-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Dil Seçimi */
+.language-selector select {
+  width: 140px;
+  padding: 8px;
   border-radius: 5px;
   border: 1px solid #ddd;
-  font-size: 16px;
+  font-size: 14px;
   cursor: pointer;
   background-color: white;
+}
+
+/* User Avatar və Dropdown */
+.user-dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #35abab;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 180px;
   text-align: center;
 }
-.custom-dropdown select option:hover {
-  background-color: #35abab !important;
+
+.dropdown-menu p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333;
+  
+}
+
+.dropdown-menu button {
+  width: 100%;
+  background-color: #35abab;
   color: white;
+  border: none;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
 }
 
-.custom-dropdown select:focus {
-  outline: none;
-  box-shadow: 0 0 5px rgba(53, 171, 171, 0.5);
+.dropdown-menu button:hover {
+  background-color: #2a8f8f;
 }
-
-.custom-dropdown option {
-  font-size: 16px;
-  padding: 10px;
-}
-
 .proxima_logo {
   width: 200px;
+  filter: invert(1);
 }
+

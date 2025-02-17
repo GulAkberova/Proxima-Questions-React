@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   min-height: 84vh;
-  background: #000;
+  background: var(--background-color);
   text-align: center;
   background-image: url("/public/proximaBg.png");
   background-repeat: no-repeat;

@@ -1,7 +1,8 @@
 .container {
-  margin: 40px auto;
+  margin: 0px auto;
   font-family: Arial, sans-serif;
-  padding: 0px 30px;
+  background-color: var(--background-color);
+  padding: 40px 30px;
 }
 
 .answerform {
@@ -16,7 +17,7 @@
   cursor: pointer;
   font-size: 16px;
   transition: 0.3s;
-  color: white;
+  color: var(--text-color);
   border: none;
   border-bottom: 2px solid transparent;
   border-radius: 3px;
@@ -55,23 +56,25 @@
   margin-bottom: 5px;
 }
 .input-group-answer label div {
-  border: 1px solid white;
+  border: 1px solid black;
   padding: 3px 2px;
   width: 10px;
-  background-color: white;
+  background-color: black;
   border-radius: 100%;
   display: inline-block;
   margin-right: 7px;
 }
-.input-group-answer input {
+.input-group-answer textarea {
   width: 100%;
   padding: 8px;
   border: none;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 0.5px solid #ccc;
   border-radius: 4px;
   background-color: transparent;
-  color: white;
+  color: var(--text-color);
+
 }
-.input-group-answer input:focus {
+.input-group-answer textarea:focus {
   outline: none;
+  border: 1px solid #35abab;
 }

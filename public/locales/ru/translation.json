@@ -4,6 +4,17 @@
 
   "home": "Главная",
   "questionform": "Опрос",
+  "answer":"Результаты запроса",
+  "superdashboard":"Суперадмин",
+
+  "addToAllQuestions":"Добавить ко всем вопросам",
+  "areYouSureAllQuestionsFilled":"Вы уверены, что ответили на все вопросы во всех разделах?",
+
+
+  "questionsAdded": "Вопросы успешно добавлены!",
+  "questionsAddError": "Произошла ошибка при добавлении вопросов.",
+  "close": "Закрыть",
+
 
   "sections": {
     "company": "О компании",

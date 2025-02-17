@@ -1,14 +1,21 @@
 {
-  "welcome": "Anket panelimize hoş geldiniz!",
-  "change_language": "Dili Değiştir",
-
-  "home": "Ana Sayfa",
-  "questionform": "Anket",
-
   "welcome": "Sorgu panelimize hoş geldiniz!",
   "change_language": "Dili değiştir",
+
   "home": "Anasayfa",
   "questionform": "Sorgu",
+  "answer":"Sorğu Sonuçları",
+  "superdashboard":"Süperadmin",
+
+  "addToAllQuestions":"Tüm Soruları Ekle",
+  "areYouSureAllQuestionsFilled":"Tüm bölümlerdeki tüm soruları doldurduğunuzdan emin misiniz?",
+
+
+  "questionsAdded": "Sorular başarıyla eklendi!",
+  "questionsAddError": "Sorular eklenirken bir hata oluştu.",
+  "close": "Kapat",
+
+
 
   "sections": {
     "company": "Şirket Hakkında",

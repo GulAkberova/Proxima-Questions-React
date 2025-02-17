@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "proxima-questions-react"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "proxima-questions-react-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]

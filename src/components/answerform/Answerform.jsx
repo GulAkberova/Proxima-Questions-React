@@ -1,30 +1,34 @@
 import React, { useEffect, useState } from "react";
-import "./answerform.css";
 import { useParams } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+import { useQuestions } from "../../context/QuestionsContext";
+import "./answerform.css";
 
-function Answerform() {
+function AnswerForm() {
   const { t } = useTranslation();
   const params = useParams();
-  const [allQuestions, setAllQuestions] = useState([]);
+  const { allQuestions, handleInputChange, updateQuestion, setAllQuestions } =
+    useQuestions();
+
   const [filteredQuestions, setFilteredQuestions] = useState([]);
   const [sections, setSections] = useState([]);
   const [selectedTab, setSelectedTab] = useState(0);
   const [editableAnswers, setEditableAnswers] = useState({});
 
-  useEffect(() => {
-    const storedQuestions = JSON.parse(
-      localStorage.getItem("local_allQuestions")
+  const handleUpdate = () => {
+    updateQuestion(
+      "documentId123",
+      "section1",
+      "question1",
+      "New Answer",
+      setAllQuestions
     );
-    if (storedQuestions) {
-      setAllQuestions(storedQuestions);
-    }
-  }, []);
+  };
 
   useEffect(() => {
     if (params.id) {
-      const filtered = allQuestions.filter(
-        (questionSet) => questionSet[0]?.answers.q1 === params.id
+      const filtered = allQuestions.filter((q) =>
+        q.questions.some((question) => question.answers.q1 === params.id)
       );
       setFilteredQuestions(filtered);
     }
@@ -32,7 +36,7 @@ function Answerform() {
 
   useEffect(() => {
     if (filteredQuestions.length > 0) {
-      const sectionsArray = filteredQuestions[0].map((q) => ({
+      const sectionsArray = filteredQuestions[0].questions.map((q) => ({
         label: t(`sections.${q.section}`, { defaultValue: q.section }),
         key: q.section,
       }));
@@ -44,10 +48,6 @@ function Answerform() {
     setSelectedTab(index);
   };
 
-  const getTranslatedQuestion = (section, key) => {
-    return t(`questions.${section}.${key}`, { defaultValue: key });
-  };
-
   const handleEditClick = (section, key) => {
     setEditableAnswers((prev) => ({
       ...prev,
@@ -55,29 +55,10 @@ function Answerform() {
     }));
   };
 
-  const handleInputChange = (e, section, key) => {
+  const handleInputChangeWrapper = (e, docId, section, key) => {
     const { value } = e.target;
-
-    setAllQuestions((prevQuestions) =>
-      prevQuestions.map((questionSet) => {
-        if (questionSet[0]?.answers.q1 === params.id) {
-          return questionSet.map((q) => {
-            if (q.section === section && q.answers[key] !== undefined) {
-              return { ...q, answers: { ...q.answers, [key]: value } };
-            }
-            return q;
-          });
-        }
-        return questionSet;
-      })
-    );
+    handleInputChange(docId, section, key, value);
   };
-
-  useEffect(() => {
-    if (allQuestions.length > 0) {
-      localStorage.setItem("local_allQuestions", JSON.stringify(allQuestions));
-    }
-  }, [allQuestions]);
 
   return (
     <div className="container">
@@ -93,36 +74,44 @@ function Answerform() {
         ))}
       </div>
 
-      <div className="tab-content">
+      <div className="tab-content-question">
         {filteredQuestions.map((questionSet, idx) =>
-          questionSet
+          questionSet.questions
             .filter((q) => q.section === sections[selectedTab]?.key)
             .map((q, questionIdx) => (
               <div key={questionIdx}>
-                {/* <h3>
-                  {t(`sections.${q.section}`, { defaultValue: q.section })}
-                </h3> */}
                 <div>
-                  {Object.entries(q.answers).map(
-                    ([answerKey, answer], answerIdx) => (
+                  {Object.entries(q.answers)
+                    .sort(([a], [b]) => a.localeCompare(b))
+                    .map(([answerKey, answer], answerIdx) => (
                       <div key={answerIdx} className="input-group-answer">
                         <label>
-                        <div></div>
-                          {getTranslatedQuestion(q.section, answerKey)}:
+                          <div></div>
+                          {t(`questions.${q.section}.${answerKey}`, {
+                            defaultValue: answerKey,
+                          })}
+                          :
                         </label>
                         <div>
-                          <input
+                          <textarea
                             type="text"
                             value={answer || ""}
                             readOnly={
                               !editableAnswers[`${q.section}-${answerKey}`]
                             }
                             onChange={(e) =>
-                              handleInputChange(e, q.section, answerKey)
+                              handleInputChangeWrapper(
+                                e,
+                                questionSet.id,
+                                q.section,
+                                answerKey
+                              )
                             }
                             className="readonly-input"
+                            rows={3}
+                            style={{ width: "100%" }}
                           />
-                          <button
+                          {/* <button
                             onClick={() =>
                               handleEditClick(q.section, answerKey)
                             }
@@ -131,11 +120,10 @@ function Answerform() {
                             {editableAnswers[`${q.section}-${answerKey}`]
                               ? "🦾"
                               : "✏️"}
-                          </button>
+                          </button> */}
                         </div>
                       </div>
-                    )
-                  )}
+                    ))}
                 </div>
               </div>
             ))
@@ -145,4 +133,4 @@ function Answerform() {
   );
 }
 
-export default Answerform;
+export default AnswerForm;

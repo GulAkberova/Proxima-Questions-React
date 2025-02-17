@@ -1,8 +1,20 @@
 {
   "welcome": "Welcome to our survey panel!",
   "change_language": "Change Language",
+
   "home": "Home",
   "questionform": "Question Form",
+  "answer":"Query Results",
+  "superdashboard":"Superadmin",
+
+  "addToAllQuestions":"Add to All Questions",
+  "areYouSureAllQuestionsFilled":"Are you sure that you have answered all the questions in all sections?",
+
+  
+  "questionsAdded": "Questions added successfully!",
+  "questionsAddError": "An error occurred while adding questions.",
+  "close": "Close",
+
 
   "sections": {
     "company": "About the Company",
